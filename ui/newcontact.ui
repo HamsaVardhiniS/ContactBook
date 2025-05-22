@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>newcontact</class>
+ <widget class="QDialog" name="newcontact">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>649</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="lastName">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>190</y>
+     <width>331</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Title">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>60</y>
+     <width>131</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>NEW CONTACT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="phoneL">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>270</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>📞 Mobile No</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="phoneNo">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>270</y>
+     <width>331</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Cancel">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>380</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>CANCEL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lastNameL">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>190</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Last Name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Save">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>380</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>SAVE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="company">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>230</y>
+     <width>331</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="email">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>310</y>
+     <width>331</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>160</y>
+     <width>331</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="emailL">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>310</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>📧 Email</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="companyL">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>230</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>🏢 Company</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameL">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>160</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>👤First Name</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

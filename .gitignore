@@ -1,0 +1,17 @@
+# Qt Creator and build files
+*.pro.user
+*.qmake.stash
+
+# Build output
+build*/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+
+# Generated files
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
